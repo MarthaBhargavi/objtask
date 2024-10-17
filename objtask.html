@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Task</h2>
+    Create Object insert 5 keys to check validation if it is validated then add the New elements.
+
+    <script>
+            let student_info={
+            name:"Shiva",
+            age:16,
+            address:{
+                dr_no:45_12_355,street:"road_3" },
+            Telugu:79/100,
+            Hindi:89/100,
+            Science:88/100,
+            English:95/100,
+           city:"warangal"
+            
+            
+        }
+        if(Object.keys(student_info).includes("name")==true){
+    student_info.city="warangal"
+    
+    if(Object.keys(student_info).includes("city")==false){
+    student_info.city="warangal"}
+
+   if(Object.keys(student_info).includes("School")==false){
+    student_info.School="XYZ SCHOOL"
+            }
+            
+   if(Object.keys(student_info).includes("Maths")==false){
+    student_info.Maths=99/100
+             }
+            
+   if(Object.keys(student_info).includes("Social")==false){
+    student_info.Social=86/100
+            }
+            
+   if (Object.keys(student_info).includes("GRADE")==false) {
+    student_info.GRADE="B+"
+            }
+            
+   console.log(student_info)
+
+}
+else{
+    console.log(student_info)
+}
+
+    </script>
+</body>
+</html>
